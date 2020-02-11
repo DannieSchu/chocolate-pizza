@@ -4,7 +4,6 @@ export default class Footer extends Component {
     render () {
         return (
             <footer>
-                {/* <img src="small-logo.png" alt="delicious logo" /> */}
                 <img 
                     alt = {this.props.logo.alt} 
                     src = {this.props.logo.src} />
